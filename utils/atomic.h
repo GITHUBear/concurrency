@@ -30,7 +30,7 @@
 #define _DB_UTILS_ATOMIC_H_
 
 #include <queue>
-#include <tr1/unordered_map>
+#include <unordered_map>
 #include <set>
 
 #include <assert.h>
@@ -38,7 +38,7 @@
 
 using std::queue;
 using std::set;
-using std::tr1::unordered_map;
+using std::unordered_map;
 
 /// @class AtomicMap<K, V>
 ///

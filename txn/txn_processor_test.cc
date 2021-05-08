@@ -124,6 +124,7 @@ void Benchmark(const vector<LoadGen*>& lg) {
       double end = GetTime();
 
       // Print throughput
+      cout << "\t" << end << "\t" << flush;
       cout << "\t" << (txn_count / (end-start)) << "\t" << flush;
 
       // Delete TxnProcessor and completed transactions.

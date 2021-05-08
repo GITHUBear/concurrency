@@ -33,9 +33,9 @@ PG =
 # Set the flags for C++ to compile with (namely where to look for external
 # libraries) and the linker libraries (again to look in the ext/ library)
 CXXFLAGS := -g -MD $(PG) -I$(SRCDIR) -I$(OBJDIR) -std=c++0x
-CXXFLAGS += -Wall -Werror
+#CXXFLAGS += -Wall -Werror
 
-LDFLAGS := -lpthread -lrt $(PG)
+LDFLAGS := -lpthread $(PG)
 
 # Lists that the */Makefile.inc makefile fragments will add to
 OBJDIRS :=

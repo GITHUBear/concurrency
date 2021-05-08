@@ -4,14 +4,14 @@
 #define _STORAGE_H_
 
 #include <limits.h>
-#include <tr1/unordered_map>
+#include <unordered_map>
 #include <deque>
 #include <map>
 
 #include "txn/common.h"
 #include "txn/txn.h"
 
-using std::tr1::unordered_map;
+using std::unordered_map;
 using std::deque;
 using std::map;
 

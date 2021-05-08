@@ -5,7 +5,7 @@
 #ifndef _LOCK_MANAGER_H_
 #define _LOCK_MANAGER_H_
 
-#include <tr1/unordered_map>
+#include <unordered_map>
 #include <deque>
 #include <map>
 #include <vector>
@@ -18,7 +18,7 @@ using std::map;
 using std::deque;
 using std::vector;
 using std::pair;
-using std::tr1::unordered_map;
+using std::unordered_map;
 
 class Txn;
 
